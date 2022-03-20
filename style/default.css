@@ -2,12 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: hsl(216, 12%, 8%);
 }
 
 body {
     height: 100vh;
     font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
     display: flex;
     justify-content: center;
     align-items: center;

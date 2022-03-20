@@ -1,5 +1,6 @@
 .classificacao {
     height: auto;
     width: 400px;
-    background: linear-gradient(to bottom, hsl(216, 12%, 54%), hsl(213, 19%, 18%));
+    background-color: hsl(216, 12%, 54%); 
+    /* background: linear-gradient(to bottom, hsl(216, 12%, 54%), hsl(213, 19%, 18%)); */
 }

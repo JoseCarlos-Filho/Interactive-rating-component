@@ -28,7 +28,7 @@
     /* estilização do radio button no estado inicial da page */
     height: 55px;
     width: 55px;
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(216deg, 12%, 54%);
     border-radius: 100%;
     
     position: absolute;
@@ -45,7 +45,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(216deg, 12%, 54%);
     opacity: 0;
     transition: opacity 0.3s;
 }
@@ -58,13 +58,13 @@
     transform: translate (-50%, -50%);
     
     font-size: 20px;
-    color: hsl(0, 0%, 100%);
+    color: hsl(0deg, 0%, 100%);
     font-weight: 400;
 }
 
 .form_radio_button:hover {
     /* estilização do radio buttons quando o ponteiro do mouse passa sobre o button */
-    background-color: hsl(25, 97%, 53%);
+    background-color: hsl(25deg, 97%, 53%);
 }
 
 /* .form_radio_button:checked ~ .form_botoes_label .form_radio_button::after {

@@ -29,6 +29,7 @@
     height: 55px;
     width: 55px;
     background-color: hsl(216deg, 12%, 54%);
+    box-shadow: 0px 0px 10px hsl(216deg, 12%, 54%);
     border-radius: 100%;
     
     position: absolute;
@@ -65,6 +66,7 @@
 .form_radio_button:hover {
     /* estilização do radio buttons quando o ponteiro do mouse passa sobre o button */
     background-color: hsl(25deg, 97%, 53%);
+    box-shadow: 0px 0px 30px hsl(25deg, 97%, 53%);
 }
 
 /* .form_radio_button:checked ~ .form_botoes_label .form_radio_button::after {

@@ -14,7 +14,7 @@
 }
 
 .btn_submit:hover {
-    background-color: hsl(0deg, 0%, 100%);
+    background: hsl(0deg, 0%, 100%);
     color:hsl(217deg, 12%, 30%);
 }
 

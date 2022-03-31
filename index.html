@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="./style/pag_header.css">
   <link rel="stylesheet" href="./style/rating_buttons.css">
   <link rel="stylesheet" href="./style/submit_button.css">
+  <link rel="stylesheet" href="./style/thank_you.css">
   
   <title>Componente de Classificação Interativo</title>
 
@@ -25,86 +26,97 @@
       <!-- Cabeçalho do Cartão -->
       <header class="classificacao">
         
-        <div class="cartao_classificacao">
-            
-            <img class="estrela" src="./images/icon-star.svg" alt="estrela">
-            <h1 class="cartao_titulo">How did we do?</h1>
-            
-            <p class="cartao_content">
-              Please let us know how we did with your support request. All feedback is appreciated 
-              to help us improve our offering!
+          <!-- <div class="cartao_classificacao">
+              
+              <img class="estrela" src="./images/icon-star.svg" alt="estrela">
+              <h1 class="cartao_titulo">How did we do?</h1>
+              
+              <p class="cartao_content">
+                Please let us know how we did with your support request. All feedback is appreciated 
+                to help us improve our offering!
+              </p>
+
+              <form class="form_botoes">
+                <div>
+                  <div class="botoes">
+                    
+                    <input type="radio" id="selecao1" class="form_botoes_input" name="valor_selecao">
+
+                    <label for="selecao1" class="form_botoes_label">
+                      <span class="form_radio_button">
+                        <div>1</div>
+                      </span>
+                    </label>
+
+                  </div>
+
+                  <div class="botoes">
+                    
+                    <input type="radio" id="selecao2" class="form_botoes_input" name="valor_selecao" value="2">
+
+                    <label for="selecao2" class="form_botoes_label">
+                      <span class="form_radio_button">
+                        <div>2</div>
+                      </span>
+                    </label>
+
+                  </div>
+
+                  <div class="botoes">
+                    
+                    <input type="radio" id="selecao3" class="form_botoes_input" name="valor_selecao" value="3">
+
+                    <label for="selecao3" class="form_botoes_label">
+                      <span class="form_radio_button">
+                        <div>3</div>
+                      </span>
+                    </label>
+
+                  </div>
+
+                  <div class="botoes">
+                    
+                    <input type="radio" id="selecao4" class="form_botoes_input" name="valor_selecao" value="4">
+
+                    <label for="selecao4" class="form_botoes_label">
+                      <span class="form_radio_button">
+                        <div>4</div>
+                      </span>
+                    </label>
+
+                  </div>
+
+                  <div class="botoes">
+                    
+                    <input type="radio" id="selecao5" class="form_botoes_input" name="valor_selecao" value="5">
+
+                    <label for="selecao5" class="form_botoes_label">
+                      <span class="form_radio_button">
+                        <div>5</div>
+                      </span>
+                    </label>
+
+                  </div>
+                </div>
+
+                <button type="submit" class="btn_submit">Submit</button>
+              </form>
+          </div> -->
+          <div class="Obrigado">
+            <img src="./images/illustration-thank-you.svg" alt="Obrigado" class="img_obrigado">
+            <p class="obrigado_result">You selected 4 out of 5.</p>
+            <h1 class="obrigado_titulo">Thank you!</h1>
+            <p class="descricao_obrigado">
+                We appreciate you taking the time to give a rating. 
+                If you ever need more support, don’t hesitate to get in touch!
             </p>
-
-            <form class="form_botoes">
-              <div>
-                <div class="botoes">
-                  
-                  <input type="radio" id="selecao1" class="form_botoes_input" name="valor_selecao">
-
-                  <label for="selecao1" class="form_botoes_label">
-                    <span class="form_radio_button">
-                      <div>1</div>
-                    </span>
-                  </label>
-
-                </div>
-
-                <div class="botoes">
-                  
-                  <input type="radio" id="selecao2" class="form_botoes_input" name="valor_selecao" value="2">
-
-                  <label for="selecao2" class="form_botoes_label">
-                    <span class="form_radio_button">
-                      <div>2</div>
-                    </span>
-                  </label>
-
-                </div>
-
-                <div class="botoes">
-                  
-                  <input type="radio" id="selecao3" class="form_botoes_input" name="valor_selecao" value="3">
-
-                  <label for="selecao3" class="form_botoes_label">
-                    <span class="form_radio_button">
-                      <div>3</div>
-                    </span>
-                  </label>
-
-                </div>
-
-                <div class="botoes">
-                  
-                  <input type="radio" id="selecao4" class="form_botoes_input" name="valor_selecao" value="4">
-
-                  <label for="selecao4" class="form_botoes_label">
-                    <span class="form_radio_button">
-                      <div>4</div>
-                    </span>
-                  </label>
-
-                </div>
-
-                <div class="botoes">
-                  
-                  <input type="radio" id="selecao5" class="form_botoes_input" name="valor_selecao" value="5">
-
-                  <label for="selecao5" class="form_botoes_label">
-                    <span class="form_radio_button">
-                      <div>5</div>
-                    </span>
-                  </label>
-
-                </div>
-              </div>
-
-              <button type="submit" class="btn_submit" onclick="submitLink()">Submit</button>
-            </form>
-        </div>
+          </div>
       </header>       
       <script src="./botao-submit.js"></script>
+</body>
+</html>
 
-              <!-- 1 2 3 4 5
+<!-- 1 2 3 4 5
 
               Submit
 
@@ -122,8 +134,3 @@
       
 
   <!-- Thank you state end -->
-
-  
-  
-</body>
-</html>

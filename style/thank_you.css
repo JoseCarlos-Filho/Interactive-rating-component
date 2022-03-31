@@ -1,0 +1,12 @@
+.obrigado_titulo {
+    font-size: 30px;
+    font-weight: 700px;
+    color: hsl(0deg, 0%, 100%);
+    margin-bottom: 15px;
+}
+
+.descricao_obrigado {
+    font-size: 15px;
+    font-weight: 400px;
+    color: hsl(216deg, 12%, 54%);
+}

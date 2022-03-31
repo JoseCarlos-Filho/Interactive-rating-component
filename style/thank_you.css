@@ -1,4 +1,5 @@
 .obrigado_titulo {
+    /* estilização do titulo da page Thank you */
     font-size: 30px;
     font-weight: 700px;
     color: hsl(0deg, 0%, 100%);
@@ -6,7 +7,36 @@
 }
 
 .descricao_obrigado {
+    /* estilização da descrição da page Thank you */
     font-size: 15px;
     font-weight: 400px;
     color: hsl(216deg, 12%, 54%);
+
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.Obrigado {
+    /* Bloco de posicionamento dos elementos da page Thank you */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Obrigado .img_obrigado {
+    /* espaço entre a imagem e o texto da page Thank you */
+    margin-bottom: 20px;
+}
+
+.Obrigado .obrigado_result {
+    /* estilo e posicionamento do texto com classificação da page Thank you  */
+    font-weight: 400;
+    background-color: hsl(216deg, 12%, 8%);
+    color: hsl(25deg, 97%, 53%); 
+    
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }

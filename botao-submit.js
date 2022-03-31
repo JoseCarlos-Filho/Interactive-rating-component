@@ -20,7 +20,9 @@ formulario.addEventListener('submit', e => {
     if(!classificaValor){
         return;
     }
-})
+});
+
+
 
 
 // function submitLink() {

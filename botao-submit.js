@@ -43,9 +43,9 @@ function telaObrigado(container, classificaValor) {
     `;
 }
 
-function clickcor() {
-    const click = document.querySelector(".form_radio_button");
+// function clickcor() {
+//     const click = document.querySelector(".form_radio_button");
     
-    click.style.backgroundColor = "red";
-    console.log(click);
-}
+//     click.style.backgroundColor = "hsl(217, 12%, 63%)";
+//     console.log(click);
+// }
